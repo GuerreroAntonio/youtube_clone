@@ -1,3 +1,18 @@
 * {
   box-sizing: border-box;
 }
+
+.bar-menu-container {
+  width: 20px;
+  height: 20px;
+}
+
+nav {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.mx-potens {
+  height: 25px;
+  font-size: 10px;
+}
