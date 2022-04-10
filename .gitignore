@@ -1,0 +1,9 @@
+# Javascript node modules and packages that are been installed
+# When stylelint is installed
+node_modules
+package-lock.json
+
+# Firebase config files
+.firebase
+.firebaserc
+firebase.json
