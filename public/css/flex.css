@@ -14,3 +14,7 @@
 .flex-grow {
   flex-direction: grow;
 }
+
+.box {
+  display: flex;
+}
