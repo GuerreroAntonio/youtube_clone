@@ -12,11 +12,13 @@ nav {
   padding-left: 16px;
   padding-right: 16px;
   flex-direction: row;
+  
 }
 
 .mx-potens {
   height: 25px;
   font-size: 10px;
+
 }
 
 .buscador {
@@ -35,4 +37,8 @@ nav {
 p {
   margin-bottom: 25px;
   padding: auto;
+}
+
+.logo {
+  margin-left: 25px;
 }
