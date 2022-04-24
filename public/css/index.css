@@ -1,6 +1,11 @@
+/* #region navbar */
+
+/* navbar start */
 nav {
-  height: 50px;
+  height: 56px;
   background-color: blue;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 div {
@@ -8,14 +13,21 @@ div {
   width: 100%;
 }
 
+/* start block left */
 .left {
   align-items: center;
-  background-color: aqua;
+
+  /* background-color: aqua; */
 }
 
 .bar-menu-container {
   height: 25px;
   width: 25px;
+  margin-right: 20px;
+}
+
+h2 {
+  font-weight: bold;
 }
 
 .mx-potens {
@@ -23,10 +35,24 @@ div {
   font-size: 10px;
 }
 
+/* finish block left */
+
+/* start block center */
+
 .center {
   background-color: green;
 }
 
+/* finish block center */
+
+/* start block right */
+
 .right {
   background-color: crimson;
 }
+
+/* finish block right */
+
+/* finish navbar */
+
+/* #endregion navbar */
