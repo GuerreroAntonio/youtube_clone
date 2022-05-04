@@ -16,8 +16,7 @@ div {
 /* start block left */
 .left {
   align-items: center;
-
-  /* background-color: aqua; */
+  background-color: aqua;
 }
 
 .bar-menu-container {
