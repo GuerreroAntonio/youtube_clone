@@ -7,7 +7,7 @@
   flex-direction: column;
 }
 
-.align_items {
+.align-center {
   align-items: center;
 }
 
@@ -17,8 +17,13 @@
 
 .box {
   display: flex;
+  display: center;
 }
 
-.justify-content {
-  justify-content: space-between;
+.justify-center{
+  
+  justify-content : center;
+  
+
 }
+

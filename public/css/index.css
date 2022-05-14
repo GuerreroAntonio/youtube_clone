@@ -49,7 +49,15 @@ h2 {
 .right {
   background-color: crimson;
 }
-
+.search-box {
+  height: 40px;
+  width: 300px;
+  
+}
+.button{
+  height: 40px;
+  width: 64px;
+}
 /* finish block right */
 
 /* finish navbar */
