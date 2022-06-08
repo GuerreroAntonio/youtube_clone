@@ -42,27 +42,38 @@ h2 {
   background-color: green;
 }
 
+.button {
+  height: 40px;
+  width: 64px;
+  border-radius: 0;
+  shape-margin: 0;
+}
+
 /* finish block center */
 
 /* start block right */
 
 .right {
   background-color: crimson;
+  size: 16px;
 }
-.search-box {
-  height: 40px;
-  width: 300px;
-  border-radius: 0;
-  shape-margin: 0;
-}
-.button{
-  height: 40px;
-  width: 64px;
-  border-radius: 0;
-  shape-margin: 0;
-}
-/* finish block right */
 
 /* finish navbar */
+
+/* start aside */
+
+aside {
+  background-color: blue;
+}
+
+.video {
+  margin: 25px;
+}
+
+.videos {
+  flex-direction: column-reverse;
+}
+
+/* end asside */
 
 /* #endregion navbar */

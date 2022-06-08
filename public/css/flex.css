@@ -1,7 +1,6 @@
 
 .flex {
   display: flex;
-  
 }
 
 .column {
@@ -21,10 +20,6 @@
   display: center;
 }
 
-.justify-center{
-  
-  justify-content : center;
-  
-
+.justify-center {
+  justify-content: center;
 }
-
