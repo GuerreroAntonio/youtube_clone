@@ -67,10 +67,14 @@ aside {
 }
 
 .video {
-  margin: 25px;
+  background-color: coral;
+  padding-left: 150px;
+  padding-top: 15px;
+  size: 640px 360px;
 }
 
 .videos {
+  background-color: chartreuse;
   flex-direction: column-reverse;
 }
 
