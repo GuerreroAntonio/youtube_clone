@@ -58,6 +58,21 @@ h2 {
   size: 16px;
 }
 
+.photo {
+  margin-right: 100px;
+  background-color: rgba(255, 255, 255, 5);
+}
+
+.apps {
+  margin-right: 50px;
+  background-color: rgba(255, 255, 255, 5);
+}
+
+.bell {
+  margin-right: 100px;
+  background-color: rgba(255, 255, 255, 5);
+}
+
 /* finish navbar */
 
 /* start aside */
@@ -76,6 +91,15 @@ aside {
 .videos {
   background-color: chartreuse;
   flex-direction: column-reverse;
+}
+
+.nmvideo {
+  padding-left: 150px;
+  padding-top: 25px;
+}
+
+.info2 {
+  background-color: yellow;
 }
 
 /* end asside */

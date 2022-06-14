@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   
   <head>
@@ -8,95 +9,103 @@
   <link rel="stylesheet" href="css/flex.css" />
   <link rel="stylesheet" href="css/index.css" />
   <title> Youtube Clone.</title>
-  
 </head>
 
 <body>
   <!-- #region navbar -->
   <nav class="flex">
-<!-- #region navleft -->
-
+  <!-- #region navleft -->
     <div class="left flex">
-      
       <div class="bar-menu-container flex">
         <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;" class="style-scope yt-icon"><g class="style-scope yt-icon"><path d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z" class="style-scope yt-icon"></path></g></svg>
       </div>
-        
+      
       <div class="flex align-center logo">
         <img src="https://img.icons8.com/color/28/000000/youtube-play.png" alt="Youtube icon"/>
         <h2>Youtube</h2>
         <div class="mx-potens column flex">
           MX
         </div>
-</div>
-
+      </div>
     </div>
     <!-- #endregion navleft -->
 
     <!-- #centeregion navcenter -->
-
+      
     <div class=" flex center justify-center align-center "> 
-
       <form action="return" method="get" target="_blank" class="flex"> 
-        <input class="search-box"type="search" name="searching" placeholder="buscar" >
+        <input class="search-box" type="search" name="searching" placeholder="buscar" >
         <input class="button" type="submit" value="buscar">
       </form>
- 
     </div>
     <!-- #endcenteregion navcenter -->
-
     <!-- #rigthregion navright -->
-
-  <div class="right flex">
-    <img src="https://img.icons8.com/external-thin-kawalan-studio/100/undefined/external-camera-plus-multimedia-thin-kawalan-studio.png"/>
-    <img src="https://img.icons8.com/ios/100/undefined/apps-tab.png"/>
-    <img src="https://img.icons8.com/ios//undefined/bell.png"/>
-  </div>
-</nav>
-
-<!-- video -->
-<div class="video">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/nF5dH1ngQtE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <!-- video -->
-</div>
-  <div class="nmvideo">
-
-    <h1>
-      <hr>#MastersOfBlues MASTERS OF BLUES / B.B. King - Eric Clapton -SRV - Buddy Guy (And Friends)
-    <hr>
-  </h1>
-  <div class="info2">
-    <li>
-      <h2><link 11,174,252 vistas>visitas</h2> 
-      <h2><link abr 2018> fecha</h2>
-      <h2><link 82 ,363><link me gusta>me gusta</h2>
-      <h2><link Compartir> Compartir</h2>
-      <h2><link Recortar> Recortar</h2>   
-      <h2><link Guardar> Guardar</h2>
-    </li>
-  </div>
     
-    
-
-  
-        
-        
-        
-        </div>
-        <!-- video  -->
+    <div class="right flex"> 
+      <div id="photo">
+        <button><img src="https://img.icons8.com/external-thin-kawalan-studio/50/undefined/external-camera-plus-multimedia-thin-kawalan-studio.png" alt=""/></button>
+      </div>
+      <div id="apps">
+        <button><img src="https://img.icons8.com/ios/50/undefined/apps-tab.png" alt=""/></button>
+      </div>
+      <div id="bell">
+        <button><img src="https://img.icons8.com/ios/50/undefined/bell.png" alt=""/></button> 
       </div>
 
+    </div>
+      
     
-    
-    
-    
-    
-    
-    
+  </nav>
+          
+  <!-- video -->
+  
+  <div class="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/nF5dH1ngQtE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  <!-- video -->
+  <!-- description -->
+
+  <div class="nmvideo">
+    <h1>#MastersOfBlues MASTERS OF BLUES / B.B. King - Eric Clapton -SRV - Buddy Guy (And Friends)</h1>
+  </div>
+  
+  <div class="info2 flex">
+
+    <!-- recordatorio agregar color -->
+    <div id="visit">
+      <h2>11,174,252 Vistas</h2>
+    </div>
+    <!-- recordatorio agregar color -->
+      
+    <div id="date">
+      <h2>abr 2018 Fecha</h2>
+    </div>
+      
+<div id="contador">
+  <button><img src="https://img.icons8.com/external-kmg-design-detailed-outline-kmg-design/20/undefined/external-like-feedback-kmg-design-detailed-outline-kmg-design.png" alt="20">Me gusta</button>
+    82 ,363
+  </div>  
+
+<div id="share">
+  <button><img src="https://img.icons8.com/material-rounded/20/undefined/share.png" alt="20"/>Compartir</button>
+</div>
+
+<div id="cut">
+  <button><img src="https://img.icons8.com/ios-glyphs/20/undefined/scissors.png" alt="20"/>Recortar</button>
+</div>
+
+  <div id="save">
+    <button><img src="https://img.icons8.com/ios-filled/20/undefined/save--v1.png" alt="20"/>Guardar</button>
+  </div>  
+
+<div id="plus">
+  <button><img src="https://img.icons8.com/ios-filled/10/undefined/ellipsis.png" alt=""/></button>
+</div>
+
+
     
   </div>
-  <!-- #endregion navbar -->
-      
+
+<!-- #endregion navbar -->
 </body>
-  
-  </html>
+</html>
