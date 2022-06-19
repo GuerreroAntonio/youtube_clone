@@ -78,7 +78,7 @@ h2 {
 /* start aside */
 
 aside {
-  background-color: blue;
+  background-color: rgb(123, 123, 241);
 }
 
 .video {
@@ -90,7 +90,6 @@ aside {
 
 .videos {
   background-color: chartreuse;
-  flex-direction: column-reverse;
 }
 
 .nmvideo {
@@ -100,8 +99,13 @@ aside {
 
 .info2 {
   background-color: yellow;
+  padding-left: 150px;
 }
 
-/* end asside */
+.vi-relacionado {
+  background-color: chartreuse;
+}
+
+/* end aside */
 
 /* #endregion navbar */
