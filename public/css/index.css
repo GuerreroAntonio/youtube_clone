@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 /* #region navbar */
 
 /* navbar start */
@@ -55,21 +58,18 @@ h2 {
 
 .right {
   background-color: crimson;
-  size: 16px;
+  padding-inline-start: 5%;
 }
 
 .photo {
-  margin-right: 100px;
   background-color: rgba(255, 255, 255, 5);
 }
 
 .apps {
-  margin-right: 50px;
   background-color: rgba(255, 255, 255, 5);
 }
 
 .bell {
-  margin-right: 100px;
   background-color: rgba(255, 255, 255, 5);
 }
 
@@ -83,29 +83,74 @@ aside {
 
 .video {
   background-color: coral;
-  padding-left: 150px;
-  padding-top: 15px;
-  size: 640px 360px;
-}
-
-.videos {
-  background-color: chartreuse;
-}
-
-.nmvideo {
+  
   padding-left: 150px;
   padding-top: 25px;
 }
 
+.videos {
+  background-color: chartreuse;
+  padding: auto;
+}
+
+.nmvideo {
+  background-color: violet;
+  padding-left: 1%;
+}
+
 .info2 {
   background-color: yellow;
-  padding-left: 150px;
+  margin-right: 45%;  
 }
 
 .vi-relacionado {
   background-color: chartreuse;
+  margin: 1%;
+}
+.div_videos {
+  background-color: violet;
+}
+
+.tittle_song {
+  background-color: aqua;
+  margin: 10%;
+}
+.menvideos {
+  background-color: darkblue;
 }
 
 /* end aside */
 
 /* #endregion navbar */
+
+
+/* papa */
+
+.papa {
+  background-color: teal;
+  height: 80vh;
+  width: 100%;
+}
+.izquierda {
+  background-color: rgb(255, 71, 86);
+  height: 100%;
+}
+
+
+.derecha {
+  background-color: springgreen;
+  height: 100%;
+  width: 40%;
+}
+
+.boton {
+  background-color: grey;
+}
+
+.boton:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+
+
