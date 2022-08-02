@@ -1,10 +1,8 @@
 * {
   box-sizing: border-box;
+  cursor: pointer;
 }
-/* #region navbar */
-
-/* navbar start */
-nav {
+.nav {
   height: 56px;
   background-color: blue;
   padding-left: 16px;
@@ -16,10 +14,9 @@ div {
   width: 100%;
 }
 
-/* start block left */
-.left {
-  align-items: center;
+.lenav {
   background-color: aqua;
+  width: 20%;
 }
 
 .bar-menu-container {
@@ -36,13 +33,9 @@ h2 {
   height: 25px;
   font-size: 10px;
 }
-
-/* finish block left */
-
-/* start block center */
-
 .center {
   background-color: green;
+  width: 60%;
 }
 
 .button {
@@ -52,38 +45,13 @@ h2 {
   shape-margin: 0;
 }
 
-/* finish block center */
-
-/* start block right */
-
 .right {
   background-color: crimson;
-  padding-inline-start: 5%;
-}
-
-.photo {
-  background-color: rgba(255, 255, 255, 5);
-}
-
-.apps {
-  background-color: rgba(255, 255, 255, 5);
-}
-
-.bell {
-  background-color: rgba(255, 255, 255, 5);
-}
-
-/* finish navbar */
-
-/* start aside */
-
-aside {
-  background-color: rgb(123, 123, 241);
+  width: 20%;
 }
 
 .video {
   background-color: coral;
-  
   padding-left: 150px;
   padding-top: 25px;
 }
@@ -98,49 +66,66 @@ aside {
   padding-left: 1%;
 }
 
-.info2 {
+.info {
   background-color: yellow;
-  margin-right: 45%;  
+  margin-right: 45%; 
+  margin-top: 3px;
 }
 
-.vi-relacionado {
+.vi_relacionados {
   background-color: chartreuse;
-  margin: 1%;
+  padding-top: 15px;
 }
+
 .div_videos {
   background-color: violet;
 }
+
 
 .tittle_song {
   background-color: aqua;
   margin: 10%;
 }
+
 .menvideos {
   background-color: darkblue;
 }
-
-/* end aside */
-
-/* #endregion navbar */
-
-
-/* papa */
-
 .papa {
   background-color: teal;
-  height: 80vh;
+  height: 100%;
   width: 100%;
 }
-.izquierda {
-  background-color: rgb(255, 71, 86);
+.iz {
+  background-color: rgb(151, 23, 23);
   height: 100%;
+  width: 70%;
+
+
 }
 
-
 .derecha {
-  background-color: springgreen;
+  background-color: rgb(192, 22, 22);
   height: 100%;
-  width: 40%;
+  width: 30%;
+}
+
+.videolist {
+  background-color: tomato;
+  height: 100%;
+  width: 100%;
+  padding-top: 25px;
+}
+
+.desvideo {
+  background-color: violet;
+}
+
+.botons {
+  background-color: yellow;
+  height: 100%;
+  width: 50%;
+  size: 50%;
+  padding-top: 15px;
 }
 
 .boton {
@@ -152,5 +137,86 @@ aside {
   cursor: pointer;
 }
 
+small {
+  font-size: .7em
+}
+.susucribe {
+  background-color: brown;
+  width: 12%;
+}
+.abc {
+  background-color: aqua;
+  padding-left: 150px;
+  padding-top: 5%;
+}
+.butsusc {
+  background-color: red;
+  padding-left: 250px;
+  padding-top: 5%;
+}
+.come {
+  background-color: azure;
+  padding-left: 150px;
+  width: 100%;
+  height: 100%;
+}
+.concome {
+  background-color: blue;
+  width: 20%;
+  height: 20%;
+}
+.comlist {
+  background-color: violet;
+  width: 80%;
+}
+.wrtecomnt {
+background-color: pink;
+padding-left: 150px;
+width: 20%;
+}
 
-
+.username {
+  width: 95%;
+}
+.nickname {
+  padding-top: 16px;
+}
+.infouser {
+  padding: 12px;
+}
+.comment {
+  background-color: blue;
+  padding-left: 150px;
+}
+.numberntarios-cont {
+  width: 4%;
+  background-color: beige;
+}
+.numberntarios { 
+  width: 10%;
+  background-color: aliceblue;
+}
+.imagesmenu {
+  background-color: aqua;
+width: 4%;
+}
+.listfor {
+width: 10%;
+background-color: aliceblue;
+}
+.com_text {
+  padding-left: 150px;
+}
+.w-come-text {
+  background-color: aquamarine;
+  width: 5%;
+}
+.usercomment {
+  background-color: aliceblue;
+  width: 96%;
+padding-top: 10px;
+}
+.vox {
+  padding-left: 189px;
+  padding-top: 35px;
+}
