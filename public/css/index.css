@@ -2,9 +2,9 @@
   box-sizing: border-box;
   cursor: pointer;
 }
+
 .nav {
   height: 56px;
-  background-color: blue;
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -15,7 +15,6 @@ div {
 }
 
 .lenav {
-  background-color: aqua;
   width: 20%;
 }
 
@@ -33,8 +32,8 @@ h2 {
   height: 25px;
   font-size: 10px;
 }
+
 .center {
-  background-color: green;
   width: 60%;
 }
 
@@ -46,177 +45,192 @@ h2 {
 }
 
 .right {
-  background-color: crimson;
-  width: 20%;
+  width: 10%;
 }
 
 .video {
-  background-color: coral;
   padding-left: 150px;
   padding-top: 25px;
 }
 
 .videos {
-  background-color: chartreuse;
-  padding: auto;
+
 }
 
 .nmvideo {
-  background-color: violet;
   padding-left: 1%;
 }
 
 .info {
-  background-color: yellow;
-  margin-right: 45%; 
-  margin-top: 3px;
+  padding-top: 20px;
+  padding-right: 25px;
+}
+
+.colorgrey {
+color: grey;
+padding-right: 0%;
+}
+
+.boVide {
+  padding-right: 20px;
 }
 
 .vi_relacionados {
-  background-color: chartreuse;
   padding-top: 15px;
 }
 
-.div_videos {
-  background-color: violet;
-}
-
-
 .tittle_song {
-  background-color: aqua;
   margin: 10%;
 }
 
-.menvideos {
-  background-color: darkblue;
-}
 .papa {
-  background-color: teal;
   height: 100%;
   width: 100%;
 }
+
 .iz {
-  background-color: rgb(151, 23, 23);
   height: 100%;
   width: 70%;
-
-
 }
 
 .derecha {
-  background-color: rgb(192, 22, 22);
   height: 100%;
   width: 30%;
 }
 
 .videolist {
-  background-color: tomato;
   height: 100%;
   width: 100%;
   padding-top: 25px;
 }
 
-.desvideo {
-  background-color: violet;
-}
-
 .botons {
-  background-color: yellow;
   height: 100%;
   width: 50%;
   size: 50%;
   padding-top: 15px;
 }
 
-.boton {
-  background-color: grey;
-}
-
 .boton:hover {
-  background-color: red;
   cursor: pointer;
 }
 
 small {
-  font-size: .7em
+  font-size: .7em;
 }
+
 .susucribe {
-  background-color: brown;
   width: 12%;
 }
+
 .abc {
-  background-color: aqua;
   padding-left: 150px;
   padding-top: 5%;
 }
+
 .butsusc {
-  background-color: red;
   padding-left: 250px;
   padding-top: 5%;
+;
 }
+
 .come {
-  background-color: azure;
   padding-left: 150px;
   width: 100%;
   height: 100%;
 }
+
 .concome {
-  background-color: blue;
   width: 20%;
   height: 20%;
 }
+
 .comlist {
-  background-color: violet;
   width: 80%;
 }
+
 .wrtecomnt {
-background-color: pink;
-padding-left: 150px;
-width: 20%;
+  padding-left: 150px;
+  width: 20%;
 }
 
 .username {
   width: 95%;
 }
+
 .nickname {
   padding-top: 16px;
 }
+
 .infouser {
   padding: 12px;
 }
+
 .comment {
-  background-color: blue;
   padding-left: 150px;
+  width: 30%;
 }
+
 .numberntarios-cont {
   width: 4%;
-  background-color: beige;
 }
-.numberntarios { 
-  width: 10%;
-  background-color: aliceblue;
-}
+
 .imagesmenu {
-  background-color: aqua;
-width: 4%;
+  width: 1%;
 }
+
 .listfor {
-width: 10%;
-background-color: aliceblue;
+  width: 10%;
 }
+
 .com_text {
   padding-left: 150px;
 }
+
 .w-come-text {
-  background-color: aquamarine;
   width: 5%;
 }
+
 .usercomment {
-  background-color: aliceblue;
   width: 96%;
-padding-top: 10px;
+  padding-top: 10px;
 }
+
 .vox {
   padding-left: 189px;
   padding-top: 35px;
+}
+
+.comen_users {
+  padding-left: 150px;
+  padding-top: 20px;
+  font-size: xx-small;
+}
+
+.userCom {
+  padding-top: 15px;
+}
+
+.imUser {
+  width: 10%;
+}
+
+.comUuser {
+  width: 90%;
+  padding-top: 10px;
+}
+
+.likeDislike {
+  width: 25%;
+}
+
+.com-User {
+  width: 10%;
+}
+
+ hr {
+  font-style: transparent;
+}
+.imausuario {
+  height: 30%;
 }
